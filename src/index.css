@@ -1,13 +1,86 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+
+*,
+::before,
+::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #301934;
+  color: #cf9fff;
+  font-family: "Borel", cursive;
+  line-height: 1;
+  font-size: 0.875rem;
+}
+
+#title {
+  background-color: #e6e6fa;
+  height: 2rem;
+  width: 36.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-family: "Borel", cursive;
+}
+
+#notes {
+  background-color: #e6e6fa;
+  /* margin-bottom: 0.5rem; */
+  border-radius: 5px;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-family: "Borel", cursive;
+}
+.Title {
+  margin: 3rem 20rem 3rem;
+}
+
+.Submit-btn {
+  background: #7f00ff;
+  color: #fff;
+  border-color: transparent;
+  padding: 12px;
+  cursor: pointer;
+  outline: none;
+  width: 50%;
+  height: 2.5rem;
+  font-family: "Borel", cursive;
+  font-size: medium;
+  margin-left: 10rem;
+}
+
+.Submit-btn:hover {
+  background: #aa336a;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Clear-btn {
+  background: #f70776;
+  color: #fff;
+  border-color: transparent;
+  padding: 12px;
+  cursor: pointer;
+  outline: none;
+  width: 25%;
+  height: 2.5rem;
+  font-family: "Borel", cursive;
+  font-size: medium;
+  margin-left: 30rem;
+}
+
+.Clear-btn:hover {
+  background: #aa336a;
 }
